@@ -21,6 +21,6 @@
   "dependencies": {
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
-    "true-store": "^0.1.4"
+    "true-store": "^0.1.5"
   }
 }
