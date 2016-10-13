@@ -29,8 +29,6 @@ export const requestCurrentUser = store.action('requestCurrentUser', (state, tok
 });
 
 export const receiveCurrentUser = store.action('receiveCurrentUser', (state, user) => {
-    console.log(state);
-    console.log(user);
     state.login.loading = false;
     state.login.user = user;
 });
