@@ -34,7 +34,7 @@ export default class LoginPage extends React.Component {
         var spinner = store.get('login.loading') ? <i className="fa fa-spinner fa-spin"/> : null;
         return <div className="wrapper">
             <form className="form-signin" onSubmit={this.onSubmit.bind(this)}>
-                <h2 className="form-signin-heading">Please login</h2>
+                <h2 className="form-signin-heading">True Store</h2>
                 <input type="text" className="form-control" name="username" placeholder="Username"
                     value={username} onChange={this.bindValue.bind(this)}/>
                 <input type="password" className="form-control" name="password" placeholder="Password" ref="password"
